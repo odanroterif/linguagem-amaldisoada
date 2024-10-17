@@ -22,3 +22,4 @@ a = float(input("coloque a distância em metros: "))
 
 
 print(a,"metros em centimetros é",a/100)
+# calculo de pontencia ---> number**expoente
