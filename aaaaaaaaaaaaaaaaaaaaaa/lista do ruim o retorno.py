@@ -21,7 +21,26 @@ notes = []
 for c in range(2):
     c = float(input("digite a nota: "))
     notes.append(c)
+#------------------------------------
+day = int(input("diga um numero de 1 a 7: "))
 
+match day:
+    case 1:
+        print("domingo")
+    case 2:
+        print("lunes")
+    case 3:
+        print("martes")
+    case 4:
+        print("miercoles")
+    case 5:
+        print("jueves")
+    case 6:
+        print("viernes")
+    case 7:
+        print("sabado")
+    case _:
+        print("esse dia ainda não existe")
 
 
 
